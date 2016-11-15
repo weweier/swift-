@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2DF5081DDA9F9600DC2F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */; };
+		FC2DF50A1DDA9F9600DC2F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */; };
+		FC2DF50D1DDA9F9600DC2F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */; };
+		FC2DF50F1DDA9F9600DC2F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF50E1DDA9F9600DC2F54 /* Assets.xcassets */; };
+		FC2DF5121DDA9F9600DC2F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF5101DDA9F9600DC2F54 /* LaunchScreen.storyboard */; };
+		FC2DF51D1DDA9F9600DC2F54 /* JCQRCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF51C1DDA9F9600DC2F54 /* JCQRCodeTests.swift */; };
+		FC2DF5281DDA9F9600DC2F54 /* JCQRCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5271DDA9F9600DC2F54 /* JCQRCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2DF5191DDA9F9600DC2F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2DF4FC1DDA9F9600DC2F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2DF5031DDA9F9600DC2F54;
+			remoteInfo = JCQRCode;
+		};
+		FC2DF5241DDA9F9600DC2F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2DF4FC1DDA9F9600DC2F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2DF5031DDA9F9600DC2F54;
+			remoteInfo = JCQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2DF5041DDA9F9600DC2F54 /* JCQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC2DF50C1DDA9F9600DC2F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2DF50E1DDA9F9600DC2F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2DF5111DDA9F9600DC2F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2DF5131DDA9F9600DC2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2DF5181DDA9F9600DC2F54 /* JCQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2DF51C1DDA9F9600DC2F54 /* JCQRCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCQRCodeTests.swift; sourceTree = "<group>"; };
+		FC2DF51E1DDA9F9600DC2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2DF5231DDA9F9600DC2F54 /* JCQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2DF5271DDA9F9600DC2F54 /* JCQRCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCQRCodeUITests.swift; sourceTree = "<group>"; };
+		FC2DF5291DDA9F9600DC2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2DF5011DDA9F9600DC2F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF5151DDA9F9600DC2F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF5201DDA9F9600DC2F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2DF4FB1DDA9F9600DC2F54 = {
+			isa = PBXGroup;
+			children = (
+				FC2DF5061DDA9F9600DC2F54 /* JCQRCode */,
+				FC2DF51B1DDA9F9600DC2F54 /* JCQRCodeTests */,
+				FC2DF5261DDA9F9600DC2F54 /* JCQRCodeUITests */,
+				FC2DF5051DDA9F9600DC2F54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2DF5051DDA9F9600DC2F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF5041DDA9F9600DC2F54 /* JCQRCode.app */,
+				FC2DF5181DDA9F9600DC2F54 /* JCQRCodeTests.xctest */,
+				FC2DF5231DDA9F9600DC2F54 /* JCQRCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2DF5061DDA9F9600DC2F54 /* JCQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */,
+				FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */,
+				FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */,
+				FC2DF50E1DDA9F9600DC2F54 /* Assets.xcassets */,
+				FC2DF5101DDA9F9600DC2F54 /* LaunchScreen.storyboard */,
+				FC2DF5131DDA9F9600DC2F54 /* Info.plist */,
+			);
+			path = JCQRCode;
+			sourceTree = "<group>";
+		};
+		FC2DF51B1DDA9F9600DC2F54 /* JCQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF51C1DDA9F9600DC2F54 /* JCQRCodeTests.swift */,
+				FC2DF51E1DDA9F9600DC2F54 /* Info.plist */,
+			);
+			path = JCQRCodeTests;
+			sourceTree = "<group>";
+		};
+		FC2DF5261DDA9F9600DC2F54 /* JCQRCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DF5271DDA9F9600DC2F54 /* JCQRCodeUITests.swift */,
+				FC2DF5291DDA9F9600DC2F54 /* Info.plist */,
+			);
+			path = JCQRCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2DF5031DDA9F9600DC2F54 /* JCQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2DF52C1DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCode" */;
+			buildPhases = (
+				FC2DF5001DDA9F9600DC2F54 /* Sources */,
+				FC2DF5011DDA9F9600DC2F54 /* Frameworks */,
+				FC2DF5021DDA9F9600DC2F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCQRCode;
+			productName = JCQRCode;
+			productReference = FC2DF5041DDA9F9600DC2F54 /* JCQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2DF5171DDA9F9600DC2F54 /* JCQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2DF52F1DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeTests" */;
+			buildPhases = (
+				FC2DF5141DDA9F9600DC2F54 /* Sources */,
+				FC2DF5151DDA9F9600DC2F54 /* Frameworks */,
+				FC2DF5161DDA9F9600DC2F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2DF51A1DDA9F9600DC2F54 /* PBXTargetDependency */,
+			);
+			name = JCQRCodeTests;
+			productName = JCQRCodeTests;
+			productReference = FC2DF5181DDA9F9600DC2F54 /* JCQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2DF5221DDA9F9600DC2F54 /* JCQRCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2DF5321DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeUITests" */;
+			buildPhases = (
+				FC2DF51F1DDA9F9600DC2F54 /* Sources */,
+				FC2DF5201DDA9F9600DC2F54 /* Frameworks */,
+				FC2DF5211DDA9F9600DC2F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2DF5251DDA9F9600DC2F54 /* PBXTargetDependency */,
+			);
+			name = JCQRCodeUITests;
+			productName = JCQRCodeUITests;
+			productReference = FC2DF5231DDA9F9600DC2F54 /* JCQRCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2DF4FC1DDA9F9600DC2F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jon;
+				TargetAttributes = {
+					FC2DF5031DDA9F9600DC2F54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC2DF5171DDA9F9600DC2F54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2DF5031DDA9F9600DC2F54;
+					};
+					FC2DF5221DDA9F9600DC2F54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2DF5031DDA9F9600DC2F54;
+					};
+				};
+			};
+			buildConfigurationList = FC2DF4FF1DDA9F9600DC2F54 /* Build configuration list for PBXProject "JCQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2DF4FB1DDA9F9600DC2F54;
+			productRefGroup = FC2DF5051DDA9F9600DC2F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2DF5031DDA9F9600DC2F54 /* JCQRCode */,
+				FC2DF5171DDA9F9600DC2F54 /* JCQRCodeTests */,
+				FC2DF5221DDA9F9600DC2F54 /* JCQRCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2DF5021DDA9F9600DC2F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DF5121DDA9F9600DC2F54 /* LaunchScreen.storyboard in Resources */,
+				FC2DF50F1DDA9F9600DC2F54 /* Assets.xcassets in Resources */,
+				FC2DF50D1DDA9F9600DC2F54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF5161DDA9F9600DC2F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF5211DDA9F9600DC2F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2DF5001DDA9F9600DC2F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DF50A1DDA9F9600DC2F54 /* ViewController.swift in Sources */,
+				FC2DF5081DDA9F9600DC2F54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF5141DDA9F9600DC2F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DF51D1DDA9F9600DC2F54 /* JCQRCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2DF51F1DDA9F9600DC2F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2DF5281DDA9F9600DC2F54 /* JCQRCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2DF51A1DDA9F9600DC2F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2DF5031DDA9F9600DC2F54 /* JCQRCode */;
+			targetProxy = FC2DF5191DDA9F9600DC2F54 /* PBXContainerItemProxy */;
+		};
+		FC2DF5251DDA9F9600DC2F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2DF5031DDA9F9600DC2F54 /* JCQRCode */;
+			targetProxy = FC2DF5241DDA9F9600DC2F54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2DF50C1DDA9F9600DC2F54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2DF5101DDA9F9600DC2F54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2DF5111DDA9F9600DC2F54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2DF52A1DDA9F9600DC2F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2DF52B1DDA9F9600DC2F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2DF52D1DDA9F9600DC2F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCQRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC2DF52E1DDA9F9600DC2F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCQRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC2DF5301DDA9F9600DC2F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCQRCode.app/JCQRCode";
+			};
+			name = Debug;
+		};
+		FC2DF5311DDA9F9600DC2F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCQRCode.app/JCQRCode";
+			};
+			name = Release;
+		};
+		FC2DF5331DDA9F9600DC2F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JCQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JCQRCode;
+			};
+			name = Debug;
+		};
+		FC2DF5341DDA9F9600DC2F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JCQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JCQRCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2DF4FF1DDA9F9600DC2F54 /* Build configuration list for PBXProject "JCQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DF52A1DDA9F9600DC2F54 /* Debug */,
+				FC2DF52B1DDA9F9600DC2F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2DF52C1DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DF52D1DDA9F9600DC2F54 /* Debug */,
+				FC2DF52E1DDA9F9600DC2F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2DF52F1DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DF5301DDA9F9600DC2F54 /* Debug */,
+				FC2DF5311DDA9F9600DC2F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2DF5321DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2DF5331DDA9F9600DC2F54 /* Debug */,
+				FC2DF5341DDA9F9600DC2F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2DF4FC1DDA9F9600DC2F54 /* Project object */;
+}
