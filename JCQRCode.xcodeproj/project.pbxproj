@@ -14,6 +14,13 @@
 		FC2DF5121DDA9F9600DC2F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF5101DDA9F9600DC2F54 /* LaunchScreen.storyboard */; };
 		FC2DF51D1DDA9F9600DC2F54 /* JCQRCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF51C1DDA9F9600DC2F54 /* JCQRCodeTests.swift */; };
 		FC2DF5281DDA9F9600DC2F54 /* JCQRCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5271DDA9F9600DC2F54 /* JCQRCodeUITests.swift */; };
+		FC2DF5361DDAA00600DC2F54 /* JCConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5351DDAA00600DC2F54 /* JCConst.swift */; };
+		FC2DF5391DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5371DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift */; };
+		FC2DF53A1DDAA30B00DC2F54 /* JCCreateQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF5381DDAA30B00DC2F54 /* JCCreateQRCodeViewController.xib */; };
+		FC2DF53C1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF53B1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift */; };
+		FC2DF53E1DDAE28800DC2F54 /* JCQRResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF53D1DDAE28800DC2F54 /* JCQRResultViewController.swift */; };
+		FC91DC061DDAF66100A72FA7 /* JCImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91DC051DDAF66100A72FA7 /* JCImageCropViewController.swift */; };
+		FC91DC0D1DDB042600A72FA7 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC91DC0C1DDB042500A72FA7 /* icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		FC2DF5231DDA9F9600DC2F54 /* JCQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2DF5271DDA9F9600DC2F54 /* JCQRCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCQRCodeUITests.swift; sourceTree = "<group>"; };
 		FC2DF5291DDA9F9600DC2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2DF5351DDAA00600DC2F54 /* JCConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCConst.swift; sourceTree = "<group>"; };
+		FC2DF5371DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCCreateQRCodeViewController.swift; sourceTree = "<group>"; };
+		FC2DF5381DDAA30B00DC2F54 /* JCCreateQRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCCreateQRCodeViewController.xib; sourceTree = "<group>"; };
+		FC2DF53B1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCScanQRCodeViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		FC2DF53D1DDAE28800DC2F54 /* JCQRResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCQRResultViewController.swift; sourceTree = "<group>"; };
+		FC91DC051DDAF66100A72FA7 /* JCImageCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCImageCropViewController.swift; sourceTree = "<group>"; };
+		FC91DC0C1DDB042500A72FA7 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,14 @@
 			children = (
 				FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */,
 				FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */,
+				FC2DF5351DDAA00600DC2F54 /* JCConst.swift */,
+				FC2DF5371DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift */,
+				FC2DF5381DDAA30B00DC2F54 /* JCCreateQRCodeViewController.xib */,
+				FC2DF53B1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift */,
+				FC2DF53D1DDAE28800DC2F54 /* JCQRResultViewController.swift */,
+				FC91DC051DDAF66100A72FA7 /* JCImageCropViewController.swift */,
 				FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */,
+				FC91DC0C1DDB042500A72FA7 /* icon.jpg */,
 				FC2DF50E1DDA9F9600DC2F54 /* Assets.xcassets */,
 				FC2DF5101DDA9F9600DC2F54 /* LaunchScreen.storyboard */,
 				FC2DF5131DDA9F9600DC2F54 /* Info.plist */,
@@ -187,12 +208,14 @@
 		FC2DF4FC1DDA9F9600DC2F54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JC;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = jon;
 				TargetAttributes = {
 					FC2DF5031DDA9F9600DC2F54 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6B8UCK6K6D;
 						ProvisioningStyle = Automatic;
 					};
 					FC2DF5171DDA9F9600DC2F54 = {
@@ -233,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2DF5121DDA9F9600DC2F54 /* LaunchScreen.storyboard in Resources */,
+				FC91DC0D1DDB042600A72FA7 /* icon.jpg in Resources */,
 				FC2DF50F1DDA9F9600DC2F54 /* Assets.xcassets in Resources */,
+				FC2DF53A1DDAA30B00DC2F54 /* JCCreateQRCodeViewController.xib in Resources */,
 				FC2DF50D1DDA9F9600DC2F54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +286,11 @@
 			files = (
 				FC2DF50A1DDA9F9600DC2F54 /* ViewController.swift in Sources */,
 				FC2DF5081DDA9F9600DC2F54 /* AppDelegate.swift in Sources */,
+				FC2DF53C1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift in Sources */,
+				FC2DF5361DDAA00600DC2F54 /* JCConst.swift in Sources */,
+				FC91DC061DDAF66100A72FA7 /* JCImageCropViewController.swift in Sources */,
+				FC2DF5391DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift in Sources */,
+				FC2DF53E1DDAE28800DC2F54 /* JCQRResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B8UCK6K6D;
 				INFOPLIST_FILE = JCQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCQRCode.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,9 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B8UCK6K6D;
 				INFOPLIST_FILE = JCQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jcalertview.com.JCQRCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCQRCode.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -503,6 +535,7 @@
 				FC2DF52E1DDA9F9600DC2F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2DF52F1DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +544,7 @@
 				FC2DF5311DDA9F9600DC2F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2DF5321DDA9F9600DC2F54 /* Build configuration list for PBXNativeTarget "JCQRCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				FC2DF5341DDA9F9600DC2F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
