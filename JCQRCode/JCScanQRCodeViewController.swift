@@ -29,7 +29,7 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
         let barButton = UIBarButtonItem(title: "相册", style: .plain, target: self, action: #selector(JCScanQRCodeViewController.pickPicture))
         
         self.navigationItem.rightBarButtonItem = barButton
-        
+        self.session.addObserver(self, forKeyPath: "running", options: .new, context: nil)
         // Do any additional setup after loading the view.
         if !cameraPermissions() {
             return
@@ -155,7 +155,11 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
         
         if authStatus == AVAuthorizationStatus.notDetermined {
             AVCaptureDevice.requestAccess(forMediaType: mediaType) { (succuss) in
-                
+                if succuss{
+                    DispatchQueue.main.sync {
+                        self.scanQRCode()
+                    }
+                }
             }
         }
         
@@ -166,7 +170,9 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
             alert.addAction(action)
             showAlert("提示", message: "请设置－隐私－相机中打开权限", VC: self)
             return false
-        }else {
+        }else if(authStatus == AVAuthorizationStatus.notDetermined){
+            return false
+        }else{
             return true
         }
         
@@ -240,7 +246,7 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
             
         }
         self.session.stopRunning()
-        print("code is \(stringValue)")
+        print("code is \(String(describing: stringValue))")
         let result:JCQRResultViewController = JCQRResultViewController()
         result.urlString = stringValue!
         self.navigationController?.pushViewController(result, animated: true)
