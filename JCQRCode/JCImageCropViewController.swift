@@ -22,7 +22,7 @@ class JCImageCropViewController: UIViewController {
     fileprivate var imageScale:CGFloat!
     
     var complentButtonBlock:((_ stringVaule:String)->Void)?
-    var cancalButtonBlock:((Void)->Void)?
+    var cancalButtonBlock:(()->Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class JCImageCropViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func initWithImage(_ image:UIImage,complentBlock:@escaping (_ str :String)->Void,cancalBlock:@escaping (Void)->Void){
+    func initWithImage(_ image:UIImage,complentBlock:@escaping (_ str :String)->Void,cancalBlock:@escaping ()->Void){
         
         cropImage = image.fixOrientation()
         self.complentButtonBlock = complentBlock
@@ -325,7 +325,7 @@ class JCImageCropViewController: UIViewController {
         }else {
             //遍历所有的二维码，并框出
             for feature in features as! [CIQRCodeFeature] {
-                print(feature.messageString)
+                print(feature.messageString ?? String())
                 stringValue = feature.messageString!
             }
         }

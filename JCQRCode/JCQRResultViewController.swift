@@ -23,24 +23,34 @@ class JCQRResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white
+        self.title = "扫描结果"
+        let label:UILabel = UILabel(frame:CGRect(x:0, y:0, width:self.view.frame.width, height:self.view.frame.height) )
+        label.text = urlString
+        label.textAlignment = NSTextAlignment.center
+        label.textColor = UIColor.red
+        self.view.addSubview(label);
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        button.addTarget(self, action: #selector(JCQRResultViewController.showUrl), for: .touchUpInside)
+        self.view.addSubview(button)
+
+        let rightBar:UIBarButtonItem = UIBarButtonItem(title: "复制", style: .plain, target: self, action: #selector(JCQRResultViewController.copyClick))
+        self.navigationItem.rightBarButtonItem = rightBar
         
-        if ValidateText(validatedType: .email, validateString: urlString)||ValidateText(validatedType: .url, validateString: urlString) {
-            let web:UIWebView = UIWebView(frame:CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height ))
-            web.loadRequest(URLRequest(url: URL(string: urlString)!))
-            
-            self.view.addSubview(web)
-        }else{
-            let label:UILabel = UILabel(frame:CGRect(x:0, y:0, width:self.view.frame.width, height:self.view.frame.height) )
-            label.text = urlString
-            label.textAlignment = NSTextAlignment.center
-            label.textColor = UIColor.red
-            self.view.addSubview(label);
-        }
         
 
     }
+    func showUrl() -> Void {
+        if ValidateText(validatedType: .email, validateString: urlString)||ValidateText(validatedType: .url, validateString: urlString) {
+            let web = JCWebViewController()
+            web.webUrl = urlString
+            self.navigationController?.pushViewController(web, animated: true)
+        }
+    }
 
-    
+    func copyClick() -> Void {
+        let pas = UIPasteboard.general
+        pas.string = urlString
+    }
     func ValidateText(validatedType type: ValidatedType, validateString: String) -> Bool {
         do {
             let pattern: String

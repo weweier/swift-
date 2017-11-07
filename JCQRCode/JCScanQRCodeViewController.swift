@@ -81,7 +81,7 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
         self.layer?.videoGravity = AVLayerVideoGravityResizeAspectFill
         self.layer?.frame = self.view.frame
         self.view.layer.addSublayer(self.layer!)
-        self.session.addObserver(self, forKeyPath: "running", options: .new, context: nil)
+        //self.session.addObserver(self, forKeyPath: "running", options: .new, context: nil)
         if AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo) == .authorized{
             
            
@@ -240,12 +240,13 @@ class JCScanQRCodeViewController: UIViewController,AVCaptureMetadataOutputObject
     //二维码扫描代理
     func captureOutput(_ captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [Any]!, from connection: AVCaptureConnection!) {
         var stringValue:String?
+        self.session.stopRunning()
         if metadataObjects.count > 0 {
             let metadataObject = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
             stringValue = metadataObject.stringValue
             
         }
-        self.session.stopRunning()
+        
         print("code is \(String(describing: stringValue))")
         let result:JCQRResultViewController = JCQRResultViewController()
         result.urlString = stringValue!

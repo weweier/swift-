@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47CC31D71FB1859F00516467 /* JCWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC31D61FB1859F00516467 /* JCWebViewController.swift */; };
 		FC2DF5081DDA9F9600DC2F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */; };
 		FC2DF50A1DDA9F9600DC2F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */; };
 		FC2DF50D1DDA9F9600DC2F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47CC31D61FB1859F00516467 /* JCWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCWebViewController.swift; sourceTree = "<group>"; };
 		FC2DF5041DDA9F9600DC2F54 /* JCQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2DF5071DDA9F9600DC2F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC2DF5091DDA9F9600DC2F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				FC2DF53B1DDABAB700DC2F54 /* JCScanQRCodeViewController.swift */,
 				FC2DF53D1DDAE28800DC2F54 /* JCQRResultViewController.swift */,
 				FC91DC051DDAF66100A72FA7 /* JCImageCropViewController.swift */,
+				47CC31D61FB1859F00516467 /* JCWebViewController.swift */,
 				FC2DF50B1DDA9F9600DC2F54 /* Main.storyboard */,
 				FC91DC0C1DDB042500A72FA7 /* icon.jpg */,
 				FC2DF50E1DDA9F9600DC2F54 /* Assets.xcassets */,
@@ -290,6 +293,7 @@
 				FC2DF5361DDAA00600DC2F54 /* JCConst.swift in Sources */,
 				FC91DC061DDAF66100A72FA7 /* JCImageCropViewController.swift in Sources */,
 				FC2DF5391DDAA30B00DC2F54 /* JCCreateQRCodeViewController.swift in Sources */,
+				47CC31D71FB1859F00516467 /* JCWebViewController.swift in Sources */,
 				FC2DF53E1DDAE28800DC2F54 /* JCQRResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
